@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "PlayVerse",
+    "slug": "playverse",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0F0B1E",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F0B1E"
+    },
+    "android": {
+      "package": "com.playverse.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#0F0B1E"
+      },
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.playverse.app",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "supportsTablet": false
+    },
+    "plugins": ["@react-native-firebase/app"]
+  }
+}
