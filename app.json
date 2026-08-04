@@ -22,7 +22,6 @@
     },
     "ios": {
       "bundleIdentifier": "com.playverse.app",
-      "googleServicesFile": "./GoogleService-Info.plist",
       "supportsTablet": false
     }
   }
