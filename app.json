@@ -24,7 +24,6 @@
       "bundleIdentifier": "com.playverse.app",
       "googleServicesFile": "./GoogleService-Info.plist",
       "supportsTablet": false
-    },
-    "plugins": ["@react-native-firebase/app"]
+    }
   }
 }
