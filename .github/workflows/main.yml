@@ -30,7 +30,7 @@ jobs:
 
       - name: Build Android APK
         run: |
-          npx expo prebuild
+          npx expo prebuild --clean
           cd android
           ./gradlew assembleRelease
 
