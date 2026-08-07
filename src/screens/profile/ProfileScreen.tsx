@@ -214,21 +214,24 @@ export default function ProfileScreen() {
       </View>
 
       {/* Settings Card */}
-      <View style={styles.card}>
-        <Text style={styles.sectionLabel}>⚙️ Settings</Text>
-        <Pressable style={styles.settingRow}>
-          <Text style={styles.settingText}>Notification Preferences</Text>
-          <Text style={styles.settingArrow}>→</Text>
-        </Pressable>
-        <Pressable style={styles.settingRow}>
-          <Text style={styles.settingText}>Withdrawal Settings</Text>
-          <Text style={styles.settingArrow}>→</Text>
-        </Pressable>
-        <Pressable style={styles.settingRow}>
-          <Text style={styles.settingText}>Privacy & Security</Text>
-          <Text style={styles.settingArrow}>→</Text>
-        </Pressable>
-      </View>
+<View style={styles.card}>
+  <Text style={styles.sectionLabel}>⚙️ Settings</Text>
+
+  <Pressable style={styles.settingRow}>
+    <Text style={styles.settingText}>Notification Preferences</Text>
+    <Text style={styles.settingArrow}>›</Text>
+  </Pressable>
+
+  <Pressable style={styles.settingRow}>
+    <Text style={styles.settingText}>Withdrawal Settings</Text>
+    <Text style={styles.settingArrow}>›</Text>
+  </Pressable>
+
+  <Pressable style={styles.settingRow}>
+    <Text style={styles.settingText}>Privacy & Security</Text>
+    <Text style={styles.settingArrow}>›</Text>
+  </Pressable>
+</View>
 
       {/* Support Card */}
       <View style={styles.card}>
