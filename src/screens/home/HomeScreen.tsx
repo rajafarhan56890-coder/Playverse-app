@@ -112,7 +112,10 @@ const displayWallet = wallet || {
         </View>
       </View>
 
-      <BalanceCard coins={wallet.coins} totalEarned={wallet.totalEarned} />
+      <BalanceCard
+  coins={displayWallet.coins}
+  totalEarned={displayWallet.totalEarned}
+/>
 
       <Pressable
         style={[styles.dailyButton, isClaiming && styles.dailyButtonDisabled]}
