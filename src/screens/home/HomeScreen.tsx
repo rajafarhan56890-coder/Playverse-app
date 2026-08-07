@@ -99,7 +99,7 @@ const displayWallet = wallet || {
   pendingWithdrawal: 0,
 };
 
-  const { level, label } = levelFromTotalEarned(wallet.totalEarned);
+  const { level, label } = levelFromTotalEarned(displayWallet.totalEarned);
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
