@@ -89,9 +89,15 @@ export default function HomeScreen() {
     }
   }
 
-  if (walletLoading || !wallet) {
-    return <HomeSkeleton />;
-  }
+  if (walletLoading && !wallet) {
+  return <HomeSkeleton />;
+}
+
+const displayWallet = wallet || {
+  coins: 0,
+  totalEarned: 0,
+  pendingWithdrawal: 0,
+};
 
   const { level, label } = levelFromTotalEarned(wallet.totalEarned);
 
