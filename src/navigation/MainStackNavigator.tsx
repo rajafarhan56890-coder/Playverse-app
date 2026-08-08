@@ -7,7 +7,7 @@ import MainTabNavigator from "./MainTabNavigator";
 import GameDetailScreen from "../screens/games/GameDetailScreen";
 import GameTaskScreen from "../screens/games/GameTaskScreen";
 import GamePlayScreen from "../screens/games/GamePlayScreen";
-import WithdrawalRequestScreen from "../screens/wallet/WithdrawalRequestScreen";
+import WithdrawalRequestScreen from "../screens/withdrawal/WithdrawalRequestScreen";
 import ConversionCalculatorScreen from "../screens/wallet/ConversionCalculatorScreen";
 import PrivacyPolicyScreen from "../screens/policy/PrivacyPolicyScreen";
 import TermsOfServiceScreen from "../screens/policy/TermsOfServiceScreen";
