@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, Pressable, StyleSheet, Dimensions } from "react-native";
-import { colors } from "../../theme/colors";
-import { spacing } from "../../theme/spacing";
+import { colors } from "../../../theme/colors";
+import { spacing } from "../../../theme/spacing";
 
 const SCREEN_WIDTH = Dimensions.get("window").width;
 const SCREEN_HEIGHT = Dimensions.get("window").height - 150;
